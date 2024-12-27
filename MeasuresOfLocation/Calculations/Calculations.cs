@@ -12,10 +12,7 @@ namespace MeasuresOfLocation.Calculations
         public double[] Fi { get; init; }
         public string[] IntervalXi { get; init; }
 
-        public Calculations(double[] xi)
-        {
-            Xi = xi;
-        }
+
         public Calculations(double[] xi, double[] fi)
         {
             Xi = xi;
